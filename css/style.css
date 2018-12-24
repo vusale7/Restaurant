@@ -1,0 +1,384 @@
+body {
+	background-image: url(../img/menu.jpg);
+	background-repeat: 1;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+
+}
+.box {
+	box-shadow: 2px;
+	border-color: black;
+	border-radius: 20%;
+}
+.box1 {
+	box-shadow: 2px;
+	border-color: black;
+	border-radius: 20%;
+	font-family: Tangerine;
+	color: gold;
+	font-size: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+}
+.box2 {
+	box-shadow: 2px;
+	border-color: black;
+	border-radius: 20%;
+	font-family: Tangerine;
+	color: gold;
+	font-size: 30px;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+a:link {
+  color: gold; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.res-name {
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 250px;
+	width: 600px;
+	margin: 30px;
+	color:#D4AF37;
+    font-size: 90px;
+    font-family: Algerian;
+    border-width: 2px;
+    box-shadow: 0 0 0 10px;
+    border-style: dotted;
+    border-color: #D4AF37;
+ }
+.vspan {
+	color:#D4AF37;
+    font-size: 90px;
+    font-family: Algerian;
+    padding: 2px;
+ 	box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+ 	.res-name {
+ 		width: 40%;
+ 		height: auto;
+ 		
+        border-width: 10px;
+    	box-shadow: 0 0 0 10px;
+    	border-style: dotted;
+    	border-color: #D4AF37;
+ 	}
+    .vspan {
+    		font-size: 20px;
+ 		font-family: Algerian;
+ 		padding: 2px;
+ 	box-sizing: border-box;
+
+    }
+ }
+@media only screen and (min-width: 600px) {
+ 	.res-name {
+ 		width: 40%;
+ 		height: auto;
+ 		font-size: 20px;
+ 		font-family: Algerian;
+        border-width: 2px;
+    	box-shadow: 0 0 0 10px;
+    	border-style: dotted;
+    	border-color: #D4AF37;
+ 	}
+ 	 .vspan {
+    	font-size: 20px;
+ 		font-family: Algerian;
+ 		padding: 2px;
+ 		box-sizing: border-box;
+
+    }
+ }
+
+@media only screen and (min-width: 768px) {
+	.res-name {
+ 		width: 40%;
+ 		height: auto;
+ 		font-size: 60px;
+ 		font-family: Algerian;
+        border-width: 2px;
+    	box-shadow: 0 0 0 10px;
+    	border-style: dotted;
+    	border-color: #D4AF37;
+ 	}
+ 	.vspan {
+    	font-size: 60px;
+ 		font-family: Algerian;
+ 		padding: 2px;
+ 		box-sizing: border-box;
+
+    }
+
+ }
+@media only screen and (min-width: 992px) {
+.res-name {min-height: 250px;
+	width: 600px;
+	margin: 20px;
+	color:#D4AF37;
+    font-size: 90px;
+    font-family: Algerian;
+    border-width: 5px;
+    box-shadow: 0 0 0 10px;
+    border-style: dotted;
+    border-color: #D4AF37;
+
+}
+ .vspan {
+    	font-size: 90px;
+ 		font-family: Algerian;
+ 		padding: 2px;
+ 		box-sizing: border-box;
+
+    }
+
+} 
+
+@media only screen and (min-width: 1200px) {
+.res-name {min-height: 250px;
+	width: 600px;
+	margin: 20px;
+	color:#D4AF37;
+    font-size: 80px;
+    font-family: Algerian;
+    border-width: 2px;
+    box-shadow: 0 0 0 10px;
+    border-style: dotted;
+    border-color: #D4AF37;
+
+}
+ .vspan {
+    	font-size: 90px;
+ 		font-family: Algerian;
+ 		padding: 2px;
+ 		box-sizing: border-box;
+
+    }
+
+} 
+.navbar {
+	margin-top: 20px;
+	background-image: url(../img/12.jpg);
+	background-repeat: 1;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	width: 100%;
+	min-height: 400px;
+}
+
+
+input[type=checkbox] {
+  position: absolute; 
+  cursor: pointer;
+  width: 95%; 
+  height: 400px; 
+  z-index: 100;
+  opacity: 0;
+}
+input[type=checkbox]:checked ~ div.curtain__panel--left {
+  transform: translateX(0);
+}
+        
+input[type=checkbox]:checked ~ div.curtain__panel--right {
+  transform: translateX(0);
+}
+.curtain__panel--left {
+  transform: translateX(-100%);
+}
+
+
+.curtain__panel--right {
+  transform: translateX(100%);
+}
+.curtain__panel {
+  background: #301d0e;
+  width: 50%; 
+  height: 400px; 
+  float: left; 
+  position: relative; 
+  z-index: 2;
+  transition: all 1s ease-out; 
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  top: 40px;
+  border-radius: 20%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 20s;
+  animation-name: fade;
+  animation-duration: 160s;
+
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.receipt{
+	margin-top: 90px;
+	width: 100%;
+	min-height: 300px;
+	background:url(../img/12.jpg);
+	text-align: center;
+	color: #FAFAD2;
+	font-family: tangerine;
+	font-size: 40px;
+
+			
+}
+
+
+.b2 {
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+.b3 {
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+.b4 {
+
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.b5 {
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+.b6 {
+	
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+.b7 {
+	
+    padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+.b1 {
+	
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: gold;
+	
+}
+
+	.rLeft{
+		width: 100%;
+		min-height: 500px;
+		float: left;
+		
+	}
+
+	.rImg{
+		width: 100%;
+		min-height: 500px;
+		object-fit: cover
+	}
+	
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+	text-align: center
+	}
+
+	.rText{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+
+	.rtMain{
+		width: 100%;
+		min-height: 585px;
+		background: #3c2411;
+
+	}

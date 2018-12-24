@@ -1,0 +1,227 @@
+body {
+	background-image: url(../img/menu.jpg);
+}
+.box {
+	position: relative;
+	top: 0px;
+	box-shadow: 2px;
+	border-color: black;
+	border-radius: 20%;
+}
+.k1 {
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+
+}
+a:link {
+  color: gold; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+	.rLeft{
+		width: 100%;
+		min-height: 500px;
+		float: left;
+		
+	}
+
+	.rImg{
+		width: 100%;
+		min-height: 500px;
+		object-fit: cover
+	}
+	
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+	text-align: center
+	}
+
+	.rText{
+	padding: 30px;
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+
+	.rtMain{
+		width: 100%;
+		min-height: 585px;
+		background: #3c2411;
+
+	}
+
+
+@media only screen and (max-width: 600px) {
+		.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 20px;
+	text-align: center
+	}
+
+	.rText{
+	
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 20px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+	.rLeft{
+		width: 100%;
+		min-height: 700px;
+		float: left;
+		
+	}
+	.rtMain{
+		width: 100%;
+		min-height: 800px;
+		background: #3c2411;
+
+	}
+ }
+@media only screen and (min-width: 600px) {
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 20px;
+	text-align: center
+	}
+
+	.rText{
+	
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 20px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+	.rLeft{
+		width: 100%;
+		min-height: 100%;
+		float: left;
+		
+	}
+	
+
+ }
+
+@media only screen and (min-width: 768px) {
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+	text-align: center
+	}
+
+	.rText{
+
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+	.rLeft{
+		width: 100%;
+		min-height: 100%;
+		float: left;
+		
+	}
+	
+
+ }
+@media only screen and (min-width: 992px) {
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+	text-align: center
+	}
+
+	.rText{
+	
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+	
+	.rLeft{
+		width: 100%;
+		min-height: 500px;
+		float: left;
+		
+	}
+
+} 
+
+@media only screen and (min-width: 1200px) {
+	.text1{
+	
+	color: gold;
+	font-family: tangerine;
+	font-size: 50px;
+	text-align: center
+	}
+
+	.rText{
+	
+	box-sizing: border-box;
+	color: gold;
+	font-family: tangerine;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center
+
+	}
+
+	.rLeft{
+		width: 100%;
+		min-height: 500px;
+		float: left;
+		
+	}
+} 
